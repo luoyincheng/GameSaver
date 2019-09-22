@@ -16,7 +16,7 @@ TextLanguage=ZH
 [Viewport]
 VSync=false
 Resolution="2560x1440"
-FullScreenMode=1
+FullScreenMode=2
 VSyncThreshold=0
 OutputMonitor=0
 [Budget]
@@ -51,9 +51,9 @@ CameraAutoRotX=true
 InvertCameraX=false
 UIMouseSensitivity=1
 CameraAutoRotY=true
-RightStickCameraSensitivity=1
+RightStickCameraSensitivity=1.05102
 InvertCameraY=false
-RightStickAimSensitivity=1
+RightStickAimSensitivity=1.19388
 MouseSensitivity=1
 SteamController=0
 ForceDisablePad=false
@@ -79,8 +79,13 @@ DlcEnabled_dlc_003_001=1
 DlcEnabled_dlc_016_001=1
 DlcEnabled_dlc_011_002=0
 [Gameplay]
+MotionSicknessFocusMode=true
+DisableAutomaticSwordSheathe=true
 Difficulty=1
+ColorblindFocusMode=true
+AutosaveTimeInterval=15
 EnableUberMovement=1
+EnemyUpscaling=true
 [LevelOfDetail]
 SwarmHideDistance=200
 DecalsHideDistance=80
@@ -165,6 +170,9 @@ GrassRingSize=16777216
 BoatLocalSpaceCamera=false
 [Save]
 ShowCompatWarning=false
+[Controls]
+SwapAcceptCancel=true
+AlternativeRadialMenuInputMode=true
 [Kinect]
 Kinect=true
 [Foliage]
